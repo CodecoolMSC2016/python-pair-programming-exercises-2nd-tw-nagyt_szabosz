@@ -1,13 +1,15 @@
-import datetime
-
 
 def years(age):
-    return
+    age=int(age)
+    invage=2016+(100-age)
+    print("You will be 100 in",invage)
+    
 
+           
+i=1
+while i==1:
+    a= input("How old are you?\n")
+    years(a)
+  
 
-def main():
-    return
-
-
-if __name__ == '__main__':
-    main()
+     
