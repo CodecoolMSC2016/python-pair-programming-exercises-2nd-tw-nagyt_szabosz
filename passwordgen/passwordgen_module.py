@@ -1,8 +1,14 @@
+import random
+import string
 def passwordgen():
-    return
+    for i in range (8):
+        a= ''.join([random.choice(string.ascii_letters + string.digits + "!@#$%^&*()?]") for n in range(8)])
+    print (a)
+    return 
 
 
 def main():
+    passwordgen()
     return
 
 
